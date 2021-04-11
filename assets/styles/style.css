@@ -1,0 +1,107 @@
+    *, ::before, ::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+      html{
+        font-size: 62.5%;
+      }
+      body {
+        min-width: 375px;
+        max-height: 949px;
+        font-size: 1.4em;
+        font-family: 'Inconsolata', monospace;
+        color:var(--gray1);
+       
+      }
+      
+      :root {
+       --gray1: #333333;
+      --gray2: #4F4F4F;
+      }
+
+/* --- DIV. CONTAINER ---*/
+      .container{
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template: 3% 23% 15% 9% 8% 2%/1fr;
+      }
+
+/* --- SECTION.NOTFOUND ---*/
+.notFound{
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  margin-left: 2.4rem;
+  padding-top: 3.55%;
+  margin-bottom: 10%;
+}
+/* --- SECTION.SCARECROW ---*/
+.scarecrow{
+  margin: auto;
+  margin-bottom: 20%;
+  width: 76.5%;
+}
+.scarecrow img{
+  width: 100%;
+  height: auto;
+}
+/* --- SECTION.TITLE ---*/
+.title{
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7.11rem;
+  letter-spacing: -0.035;
+  font-family: 'Space Mono';
+  margin-left: 2.4rem;
+  margin-bottom: 8%;
+
+}
+/* --- SECTION.SUBTITLE ---*/
+.subtitle{
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: -0.035em;
+  font-family: 'Space Mono';
+  color:var(--gray2);
+  margin-left: 2.4rem;
+  margin-top: 2rem;
+  margin-bottom: 18%;
+
+}
+/* ---SECTION.BUTTON --- */
+button{
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.1rem;
+  letter-spacing: -0.035rem;
+   background-color: var(--gray1);
+  color:#ffffff;
+  padding: 2.5% 4.5%;
+  text-transform: uppercase;
+  margin-left: 2.4rem;
+  border: none;
+  margin-bottom: 30%;
+
+}
+/*--- SECTION.CREATEDBY ---*/
+.createdBy{
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: -0.035em;
+  margin-left: 2.4rem;
+  margin-top: 2rem;
+  color: #eb008a;
+  margin: 0 auto;
+}
+.createdBy a{
+  color: #eb008a;
+  text-decoration: none;
+
+}
+      
