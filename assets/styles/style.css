@@ -1,33 +1,32 @@
-    *, ::before, ::after{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-      html{
-        font-size: 62.5%;
-      }
-      body {
-        min-width: 375px;
-        max-height: 949px;
-        font-size: 1.4em;
-        font-family: 'Inconsolata', monospace;
-        color:var(--gray1);
-       
-      }
-      
-      :root {
-       --gray1: #333333;
-      --gray2: #4F4F4F;
-      }
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-width: 375px;
+  max-height: 949px;
+  font-size: 1.4em;
+  font-family: 'Inconsolata', monospace;
+  color: var(--gray1);
+}
+
+:root {
+  --gray1: #333333;
+  --gray2: #4F4F4F;
+}
 
 /* --- DIV. CONTAINER ---*/
-      .container{
-        width: 95%;
-        height: 100%;
-        margin: auto;
-        display: grid;
-        grid-template: 3% 23% 15% 9% 8% 2%/1fr;
-      }
+.container{
+ width: 95%;
+ height: 100%;      
+ margin: auto;       
+}      
 
 /* --- SECTION.NOTFOUND ---*/
 .notFound{
@@ -43,13 +42,13 @@
 .scarecrow{
   margin: auto;
   margin-bottom: 20%;
-  width: 76.5%;
+  /* width: 76.5%; */
 }
 .scarecrow img{
   width: 100%;
   height: auto;
 }
-/* --- SECTION.TITLE ---*/
+/* --- SECTION.TITLE_SUBTITLE ---*/
 .title{
   font-size: 4.8rem;
   font-weight: 700;
@@ -58,9 +57,7 @@
   font-family: 'Space Mono';
   margin-left: 2.4rem;
   margin-bottom: 8%;
-
 }
-/* --- SECTION.SUBTITLE ---*/
 .subtitle{
   font-size: 1.8rem;
   font-weight: 400;
@@ -71,9 +68,7 @@
   margin-left: 2.4rem;
   margin-top: 2rem;
   margin-bottom: 18%;
-
 }
-/* ---SECTION.BUTTON --- */
 button{
   font-size: 1.4rem;
   font-weight: bold;
@@ -86,7 +81,10 @@ button{
   margin-left: 2.4rem;
   border: none;
   margin-bottom: 30%;
-
+}
+button a{
+  color: #fff;
+  text-decoration: none;
 }
 /*--- SECTION.CREATEDBY ---*/
 .createdBy{
@@ -99,9 +97,39 @@ button{
   color: #eb008a;
   margin: 0 auto;
 }
+footer p{
+  width: 95%;
+ text-align: center;
+}
 .createdBy a{
   color: #eb008a;
   text-decoration: none;
-
 }
-      
+
+@media screen and (min-width: 768px) and (max-width:1440px) {
+  .container{
+    max-width: 1440px;
+    background-color: lightpink;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 5% 60% 20%/repeat(2,45%);
+  }
+ .notFound{
+    grid-area: 1/1/2/2;
+  }
+   .scarecrow{
+    grid-area: 2/1/3/2;
+    margin-top: 0;
+  } 
+  .scarecrow img{
+    width: 100%;
+    height: auto;
+  }
+  .title_subtitle{
+    grid-area: 2/2/3/3;
+  }
+  .createdBy{
+    grid-area: 3/2/4/3;
+  } 
+  }
+  
