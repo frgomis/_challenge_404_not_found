@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.francoiseg.alwaysdata.net">
       Demo
     </a>
     <span> | </span>
@@ -26,7 +26,7 @@
 
 ## Table of Contents
 
- - [Built With](VS Code, Grid, Flexbox))
+ - [Built With](VS Code, html, css, Grid, Flexbox))
 - [Contact](www.linkedin.com/in/francoise-gomis)
 - [Acknowledgements](MarieT pour le défi ;-) )
 
