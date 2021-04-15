@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://www.francoiseg.alwaysdata.net">
+    <a href="https://francoiseg.alwaysdata.net">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://frgomis.github.io/_challenge_404_not_found/">
       Solution
     </a>
     <span> | </span>
